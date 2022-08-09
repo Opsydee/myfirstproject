@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+<body>
+    <h1>Form Demo</h1>
+    <form action="/tacos">
+        <p>
+        <label for="username">Enter Username</label>
+        <input type="text" id="username" placeholder="username" name="username">
+    </p>
+    <p>
+        <label for="password">Enter Password</label>
+        <input type="password" placeholder="password" id="passsword">
+    </p>
+    <p>
+        <label for="color">Choose color</label>
+        <input type="color" id="color">
+    </p>
+    <p> 
+        <label for="number">Enter Number</label>  
+        <input type="number" placeholder="enter number" id="number">
+    </p>
+    <button>Submit</button>
+
+    </form>
+    <h2>More input!</h2>
+    <form action="/birds">
+    <input type="checkbox" name="agree-tos" id="agree">
+    <label for="agree">I agree to everything</label>
+    <p>
+        <label for="cheese">Amount of cheese</label>
+        <input type="range" id="cheese" min="1" max="10" name="cheese-label">
+    </p>
+    <button>Submit</button>
+
+</form>
